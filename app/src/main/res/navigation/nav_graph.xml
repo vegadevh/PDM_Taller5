@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/fragmento7">
+    <fragment android:id="@+id/fragmento7" android:name="com.diegoveega.navegationeditor.Fragmento"
+              android:label="fragment_fragmento" tools:layout="@layout/fragment_fragmento">
+        <action android:id="@+id/action_fragmento7_to_fragmento24" app:destination="@id/fragmento24"/>
+    </fragment>
+    <fragment android:id="@+id/fragmento24" android:name="com.diegoveega.navegationeditor.Fragmento2"
+              android:label="fragment_fragmento2" tools:layout="@layout/fragment_fragmento2">
+        <action android:id="@+id/action_fragmento24_to_fragmento33" app:destination="@id/fragmento33"/>
+    </fragment>
+    <fragment android:id="@+id/fragmento33" android:name="com.diegoveega.navegationeditor.Fragmento3"
+              android:label="fragment_fragmento3" tools:layout="@layout/fragment_fragmento3">
+        <action android:id="@+id/action_fragmento33_to_fragmento42" app:destination="@id/fragmento42"/>
+    </fragment>
+    <fragment android:id="@+id/fragmento42" android:name="com.diegoveega.navegationeditor.Fragmento4"
+              android:label="fragment_fragmento4" tools:layout="@layout/fragment_fragmento4">
+        <action android:id="@+id/action_fragmento42_to_fragmento7" app:destination="@id/fragmento7"/>
+    </fragment>
+</navigation>
